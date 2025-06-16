@@ -26,7 +26,7 @@ section{
     grid-template-areas: "banner banner liam sophia" "link ethan isabel noah";
     width: 1160px;
     margin: 60px auto;
-    background-image: url(resources/Background_decor.png);
+    background-image: url(resources/Background_decor.svg);
 
     background-repeat: no-repeat;
 
