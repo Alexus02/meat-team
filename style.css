@@ -26,7 +26,7 @@ section{
     grid-template-areas: "banner banner liam sophia" "link ethan isabel noah";
     width: 1160px;
     margin: 60px auto;
-    background-image: url(resources/Background_decor@2x.png);
+    background-image: url(resources/Background_decor.png);
 
     background-repeat: no-repeat;
 
@@ -40,7 +40,7 @@ section{
 }
 .liam{
     grid-area: liam;
-    background-image: url(resources/person_1@2x.png);
+    background-image: url(resources/person_1x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,7 +48,7 @@ section{
 }
 .sophia{
     grid-area: sophia;
-    background-image: url(resources/person_2@2x.png);
+    background-image: url(resources/person_2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -60,7 +60,7 @@ section{
 }
 .ethan{
     grid-area: ethan;
-    background-image: url(resources/person_3@2x.png);
+    background-image: url(resources/person_3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -68,7 +68,7 @@ section{
 }
 .isabel{
     grid-area: isabel;
-    background-image: url(resources/person_4@2x.png);
+    background-image: url(resources/person_4.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -76,7 +76,7 @@ section{
 }
 .noah{
     grid-area: noah;
-    background-image: url(resources/person_5@2x.png);
+    background-image: url(resources/person_5.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -178,6 +178,7 @@ img{
     }
     .square{
         width: 100%;
+        height: 260px;
     }
     .noah{
         border-radius: 0px 0px 0px 0px;
